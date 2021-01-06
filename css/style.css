@@ -1,8 +1,7 @@
 body{
     margin: 0;
     background-color: #EEEEEE;
-    width: 1440px;
-    height: 2660px;
+    font-family: 'roboto';
 }
 #nav-bar a{
     text-decoration: none;
@@ -20,6 +19,7 @@ body{
 }
 .bebas-font{
     font-family:'bebas neue',sans-serif;
+    font-weight: 700;
     font-size: 70px;
     
 }
@@ -51,7 +51,7 @@ body{
 }
 #photo-bottom{
     position:absolute;
-    width: 476px;
+    width: 576px;
     height: 583px;
     margin-left: 123px;
     top: 544px;
@@ -61,7 +61,7 @@ body{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg,rgb(107, 135, 226),rgb(89, 41, 221));
+    background-image: linear-gradient(45deg,rgb(31, 37, 58),rgb(165, 83, 16));
     color: white;
     border-radius: 10px;
     padding: 10px 20px;
@@ -70,4 +70,55 @@ body{
     margin-left: 831px;
     margin-top:300px;
 
+}
+.center-text{
+    text-align: center;
+}
+#project-area h1{
+    margin-top: 300px;
+}
+.project img{
+    width: 343.54px;
+    height: 213.23px;
+    border-radius: 10px;
+    
+
+}
+.project{
+    float: left;
+    width: 350px;
+    height: 374px;
+    margin-left: 90px;
+    margin-right: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 19px;
+    padding-left:5px;
+    padding-top: 5px;
+
+}
+.project a{
+    text-decoration: none;
+    color: black;
+}
+
+.rectangle{
+   float: left;
+    width: 906px;
+    height: 225px;
+    margin-left: 310px;
+   margin-top: 288px;
+    background: linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+    border-radius: 30px;
+}
+.rectangle h1{
+    color: white;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+#inquiry-area a{
+    position: absolute;
+    left: 972px;
+    margin-top: 105px;
 }
