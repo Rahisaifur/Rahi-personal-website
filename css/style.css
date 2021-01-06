@@ -127,6 +127,7 @@ body{
    text-align: center;
    margin-top: 50px;
    margin-bottom: 81px;
+   
     
 }
 #footer-color{
@@ -136,4 +137,5 @@ body{
 #footer-area img{
     width: 40px;
     height: 40px;
+    padding-left: 27px;
 }
