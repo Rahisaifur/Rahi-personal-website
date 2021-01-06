@@ -103,11 +103,11 @@ body{
 }
 
 .rectangle{
-   float: left;
-    width: 906px;
+    width: 960px;
     height: 225px;
-    margin-left: 310px;
-   margin-top: 288px;
+    display: inline-block;
+    margin-left: 280px;
+    margin-top: 135px;
     background: linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
     border-radius: 30px;
 }
@@ -117,8 +117,23 @@ body{
     margin-left: 70px;
     margin-top: 80px;
 }
+
 #inquiry-area a{
     position: absolute;
     left: 972px;
     margin-top: 105px;
+}
+#footer-area{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 81px;
+    
+}
+#footer-color{
+    color: #696871;
+    ;
+}
+#footer-area img{
+    width: 40px;
+    height: 40px;
 }
